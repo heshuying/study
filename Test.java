@@ -7,7 +7,7 @@ import com.hyjf.mongo.entity.ChinapnrLog;
 
 @Repository
 public class ChinapnrLogDao extends BaseMongoDao<ChinapnrLog>{
-
+        // 加个注释
 	@Override
 	protected Class<ChinapnrLog> getEntityClass() {
 		return ChinapnrLog.class;
